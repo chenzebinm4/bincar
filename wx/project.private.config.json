@@ -9,14 +9,21 @@
             "list": [
                 {
                     "name": "",
-                    "pathName": "pages/learncss/learncss",
+                    "pathName": "pages/index/index",
                     "query": "",
                     "launchMode": "default",
                     "scene": null
                 },
                 {
                     "name": "",
-                    "pathName": "pages/index/index",
+                    "pathName": "pages/register/register",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/lock/lock",
                     "query": "",
                     "launchMode": "default",
                     "scene": null

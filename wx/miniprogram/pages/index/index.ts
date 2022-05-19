@@ -6,7 +6,6 @@ Page({
             showLocation: true,
             showScale: true,
             subKey: '',
-            layerStyle: -1,
             enableZoom: true,
             enableScroll: true,
             enableRotate: false,
@@ -32,6 +31,7 @@ Page({
             }
         ]
     },
+
     onMyLocationTap() {
         wx.getLocation({
             type: 'gcj02',
@@ -49,6 +49,17 @@ Page({
                     title: '请前往设置页授权'
                 })
             }
+        })
+    },
+
+    onScanClicked() {
+        wx.scanCode({
+            success: () => {
+                wx.navigateTo({
+                    url: '/pages/register/register',
+                })
+            },
+            fail: console.error
         })
     }
 })
