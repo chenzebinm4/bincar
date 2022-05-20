@@ -62,8 +62,8 @@ Page({
                 state: 'Verified',
             }
         )
-        // wx.redirectTo({
-        //     url: '/pages/lock/lock'
-        // })
+        wx.redirectTo({
+            url: '/pages/lock/lock'
+        })
     }
 })
