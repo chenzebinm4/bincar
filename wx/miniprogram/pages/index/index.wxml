@@ -10,7 +10,7 @@
 >
 
     <view class="icon-container">
-        <image src="/resources/profile_light.png"></image>
+        <image src="/resources/profile_light.png" bindtap="onMyTripsTap"></image>
         <image src="/resources/my_location.png" bindtap="onMyLocationTap"></image>
     </view>
 
